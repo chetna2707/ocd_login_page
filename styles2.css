@@ -1,0 +1,99 @@
+/* Header Styling */
+header {
+    background-color: #111827;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    height: 70px;
+    width: auto;
+    margin-left: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+/* Login Form Styling */
+.login-container {
+    margin-top: 150px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Input Fields Styling */
+input {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: relative; /* Change from absolute to relative */
+    margin-top: auto;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4fa3ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
