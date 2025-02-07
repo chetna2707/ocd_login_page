@@ -4,36 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="styles2.css"> <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="styles2.css"> 
 </head>
 <body>
 
-    <!-- Header Section -->
     <header>
         <a href="https://ocdwebsite.vercel.app/" target="_blank">
             <img src="C:\Users\HP\OneDrive\사진\Screenshots\ocd.png" alt="Logo" class="logo"> <!-- Logo Image -->
         </a>
     </header>
 
-    <!-- Login Form Container -->
     <div class="login-container">
         <h2>Login</h2>
         <form id="loginForm">
-            <!-- Name Input -->
             <label for="username">Name</label>
             <input type="text" id="username" name="username" required>
 
-            <!-- Phone Number Input -->
             <label for="number">Phone Number</label>
-            <input type="number" id="number" name="number">
+            <input type="number" id="number" name="number" required>
 
-            <!-- Email Input -->
             <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
 
-            <!-- Branch Selection -->
             <label for="branch">Branch:</label>
-            <select id="branch" name="branch" >
+            <select id="branch" name="branch" required>
                 <option value="" selected>Select</option>
                 <option value="cs">Computer Science</option>
                 <option value="ece">Electronics and Communication</option>
@@ -51,23 +45,20 @@
                 <option value="MnC">Mathematics and computing</option>
             </select>
 
-            <!-- Year Selection -->
             <label for="year">Year:</label>
-            <select id="year" name="year">
+            <select id="year" name="year" required>
                 <option value="" selected>Select</option>
                 <option value="1st">1st</option>
                 <option value="2nd">2nd</option>
                 <option value="3rd">3rd</option>
                 <option value="4th">4th</option>
             </select>
-            
-            <!-- Submit Button -->
+
             <button type="submit">Login</button>
         </form>
-        <p>Don't have an account? <a href="https://ocdwebsite.vercel.app/register">Sign up</a></p>
+        <p>Don't have an account? <a href="https://ocdwebsite.vercel.app/">Sign up</a></p>
     </div>
 
-    <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 OCD. All rights reserved.</p>
         <p>Follow us on: 
