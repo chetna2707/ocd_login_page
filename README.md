@@ -7,7 +7,7 @@ This is a simple and responsive Login Page designed for the OpenCode Developers 
 - Drop down menu to select branch and year.
 - All the fields are made compulsory.
 - Footer includes functional links to instagram, whatsapp channel and email.
-- Login and signup buttons redirect to home page of OCD website.
+- Signup buttons redirect to home page of OCD website.
 
 
 
